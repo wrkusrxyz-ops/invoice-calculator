@@ -1,0 +1,14 @@
+{
+  "name": "invoice-calculator",
+  "version": "1.0.0",
+  "description": "Invoice subtotal, discount, tax and currency formatting helpers for the billing service",
+  "main": "src/invoice.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["invoice", "billing", "calculator"],
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
