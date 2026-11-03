@@ -48,6 +48,8 @@ describe("calculateTax", () => {
   test("calculates tax rounded to 2 decimals", () => {
     expect(calculateTax(99.99, 0.075)).toBe(7.5);
   });
+
+  // TODO: Add a test that checks that calculateTax throws an error for negative amounts or tax rates
 });
 
 describe("formatCurrency", () => {
