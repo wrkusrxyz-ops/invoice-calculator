@@ -50,6 +50,9 @@ describe("calculateTax", () => {
   });
 
   // TODO: Add a test that checks that calculateTax throws an error for negative amounts or tax rates
+  test("throws on a negative tax rate", () => {
+    expect(() => calculateTax(100, -0.1)).toThrow(RangeError);
+  });
 });
 
 describe("formatCurrency", () => {

@@ -4,9 +4,14 @@
   "description": "Invoice subtotal, discount, tax and currency formatting helpers for the billing service",
   "main": "src/invoice.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
-  "keywords": ["invoice", "billing", "calculator"],
+  "keywords": [
+    "invoice",
+    "billing",
+    "calculator"
+  ],
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
